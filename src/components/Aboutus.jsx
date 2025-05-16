@@ -1,6 +1,7 @@
 import React from "react";
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 20 },
@@ -8,6 +9,8 @@ const fadeInUp = {
 };
 
 function Aboutus() {
+  const navigate = useNavigate();
+
   return (
     <section className="text-gray-700 body-font bg-white min-h-screen">
       <div className="container mx-auto px-5 py-24">
