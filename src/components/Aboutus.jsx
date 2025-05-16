@@ -127,12 +127,12 @@ function Aboutus() {
           <p className="text-gray-700 mb-6">
             Contact Inviduka today and let’s create something amazing together.
           </p>
-          <a
-            href="/contact"
+          <button
+            onClick={() => navigate("/contact")}   
             className="inline-block bg-indigo-600 text-white py-3 px-8 rounded-lg shadow-md hover:bg-indigo-700 transition"
           >
             Get In Touch
-          </a>
+          </button>
         </motion.div>
       </div>
     </section>
