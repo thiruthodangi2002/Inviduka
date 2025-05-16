@@ -46,7 +46,7 @@ const TeamSection = () => {
               className="p-6 w-full sm:w-1/2 lg:w-1/4 transition-transform duration-300 ease-in-out transform hover:scale-105 cursor-pointer
        "
             >
-              <div className="h-full flex flex-col items-center text-center bg-white rounded-xl shadow-md p-6 ">
+              <div className="h-full flex flex-col items-center text-center bg-white rounded-xl shadow-md p-6  hover:shadow-indigo-400 hover:border-indigo-400 ">
                 <img
                   alt={member.name}
                   src={member.img}
