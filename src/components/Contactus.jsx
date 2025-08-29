@@ -12,10 +12,10 @@ const Contactus = () => {
 
     emailjs
       .sendForm(
-        "service_1ptz8dy",        // ✅ Your Service ID
-        "template_q0iyg6l",       // ✅ Your Template ID
+        "service_1ptz8dy",       // ✅ Your Service ID
+        "template_q0iyg6l",      // ✅ Your Template ID
         formRef.current,
-        "mDwUSlFCrWcATJAqs"       // ✅ Your Public Key
+        "mDwUSlFCrWcATJAqs"      // ✅ Your Public Key
       )
       .then(
         () => {
@@ -88,7 +88,11 @@ const Contactus = () => {
             </div>
 
             {status && (
-              <p className={`text-center text-sm font-medium ${status.includes("✅") ? "text-green-600" : "text-red-600"}`}>
+              <p
+                className={`text-center text-sm font-medium ${
+                  status.includes("✅") ? "text-green-600" : "text-red-600"
+                }`}
+              >
                 {status}
               </p>
             )}
