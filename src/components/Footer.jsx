@@ -33,7 +33,7 @@ const Footer = () => {
           </div>
 
           {/* RESOURCES Section */}
-          <div className="lg:w-1/4 md:w-1/2 w-full px-4 mb-10 md:mb-0">
+{/*           <div className="lg:w-1/4 md:w-1/2 w-full px-4 mb-10 md:mb-0">
             <h2 className="title-font font-medium text-gray-900 dark:text-white tracking-widest text-sm mb-3">
               RESOURCES
             </h2>
@@ -43,10 +43,10 @@ const Footer = () => {
               <li><Link to="/faq" className="hover:text-indigo-500">FAQs</Link></li>
               <li><Link to="/terms" className="hover:text-indigo-500">Terms & Privacy</Link></li>
             </nav>
-          </div>
+          </div> */}
 
           {/* SUBSCRIBE Section */}
-          <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+{/*           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
             <h2 className="title-font font-medium text-gray-900 dark:text-white tracking-widest text-sm mb-3">
               SUBSCRIBE
             </h2>
@@ -60,7 +60,7 @@ const Footer = () => {
                 Subscribe
               </button>
             </form>
-          </div>
+          </div> */}
         </div>
       </div>
 
