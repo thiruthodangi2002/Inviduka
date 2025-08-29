@@ -12,10 +12,10 @@ const Contactus = () => {
 
     emailjs
       .sendForm(
-        "service_svc5v1n",        // ✅ Your Service ID
-        "template_np3qpwm",       // ✅ Your Template ID
+        "service_1ptz8dy",        // ✅ Your Service ID
+        "template_q0iyg6l",       // ✅ Your Template ID
         formRef.current,
-        "TClvfqrzHuKZejqA3"       // ✅ Your Public Key
+        "mDwUSlFCrWcATJAqs"       // ✅ Your Public Key
       )
       .then(
         () => {
