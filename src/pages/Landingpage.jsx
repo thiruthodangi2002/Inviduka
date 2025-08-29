@@ -12,7 +12,7 @@ const Landingpage = () => {
       <Hero />
       <GallerySection />
       <TeamSection />
-      <Testimonals />
+{/*       <Testimonals /> */}
     </div>
   );
 };
