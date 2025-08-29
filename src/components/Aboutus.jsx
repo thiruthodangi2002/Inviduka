@@ -113,7 +113,7 @@ function Aboutus() {
         </motion.div>
 
         {/* Call to Action */}
-        <motion.div
+{/*         <motion.div
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
@@ -133,7 +133,7 @@ function Aboutus() {
           >
             Get In Touch
           </a>
-        </motion.div>
+        </motion.div> */}
       </div>
     </section>
   );
