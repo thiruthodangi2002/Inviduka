@@ -28,18 +28,6 @@ const TeamSection = () => {
               img: "https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=60",
               desc: "Backbone of the tech stack. Problem-solver. Loyal teammate.",
             },
-            {
-              name: "Muralidhar",
-              role: "Lead Programmer & SDM",
-              img: "https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=60",
-              desc: "Brings life to ideas through minimal and meaningful design.",
-            },
-            {
-              name: "Bhargva Gupta",
-              role: "Marketing Strategist",
-              img: "https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=60",
-              desc: "Spreading Inviduka’s vision through strategy and storytelling.",
-            },
           ].map((member, index) => (
             <div
               key={index}
