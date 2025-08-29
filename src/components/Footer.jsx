@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer className="text-gray-600 dark:text-gray-300 body-font bg-gray-100 dark:bg-gray-900">
-      <div className="container px-5 py-16 mx-auto">
-        <div className="flex flex-wrap md:text-left text-center order-first">
+{/*       <div className="container px-5 py-16 mx-auto">
+        <div className="flex flex-wrap md:text-left text-center order-first"> */}
           {/* ABOUT Section */}
-          <div className="lg:w-1/4 md:w-1/2 w-full px-4 mb-10 md:mb-0">
+{/*           <div className="lg:w-1/4 md:w-1/2 w-full px-4 mb-10 md:mb-0">
             <h2 className="title-font font-medium text-gray-900 dark:text-white tracking-widest text-sm mb-3">
               ABOUT
             </h2>
@@ -17,10 +17,10 @@ const Footer = () => {
               <li><Link to="/about" className="hover:text-indigo-500">Careers</Link></li>
               <li><Link to="/contact" className="hover:text-indigo-500">Contact</Link></li>
             </nav>
-          </div>
+          </div> */}
 
           {/* SERVICES Section */}
-          <div className="lg:w-1/4 md:w-1/2 w-full px-4 mb-10 md:mb-0">
+{/*           <div className="lg:w-1/4 md:w-1/2 w-full px-4 mb-10 md:mb-0">
             <h2 className="title-font font-medium text-gray-900 dark:text-white tracking-widest text-sm mb-3">
               SERVICES
             </h2>
@@ -30,7 +30,7 @@ const Footer = () => {
               <li><Link to="/services" className="hover:text-indigo-500">AI Solutions</Link></li>
               <li><Link to="/services" className="hover:text-indigo-500">Support</Link></li>
             </nav>
-          </div>
+          </div> */}
 
           {/* RESOURCES Section */}
 {/*           <div className="lg:w-1/4 md:w-1/2 w-full px-4 mb-10 md:mb-0">
@@ -61,8 +61,8 @@ const Footer = () => {
               </button>
             </form>
           </div> */}
-        </div>
-      </div>
+{/*         </div>
+      </div> */}
 
       {/* Bottom Footer */}
       <div className="bg-white dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700">
